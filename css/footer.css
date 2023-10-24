@@ -1,0 +1,13 @@
+.hrFooter {
+    border: none;
+    height: 2px;
+    width: 1500px;
+    background-color: #1e48c8;
+    margin: 10px auto;
+  }
+
+.footer {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
