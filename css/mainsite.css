@@ -2,6 +2,7 @@
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 40px;
+    font-family: coolvetica;
 }
 
 .index-hr {
@@ -25,7 +26,7 @@
  /* News */
 .newsBigtext {
     font-size: 30px;
-    color: rgb(255, 255, 255);
+    color: black;
 }
 
 .newsBox {
@@ -38,8 +39,9 @@
     text-align: center;
     border: 2px solid rgb(0, 0, 0);
     transition: transform 0.3s, box-shadow 0.3s;
-    background-color: rgb(42, 50, 77);
-    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: coolvetica;
 }
 
     .newsBox:hover {
