@@ -53,3 +53,8 @@
     width: 90%;
     margin: 30px auto;
 }
+
+/* Background color of the index site */
+.indexBody {
+    background-color: rgb(22, 25, 35);;
+}
