@@ -66,4 +66,13 @@ li {
     width: 45px;
 }
 
+/* Color of the hr in the navbar (navigationbar) */
+.nav-hr {
+    border: none;
+    height: 2px;
+    width: 1500px;
+    background-color: rgb(30, 72, 200);
+    margin: 10px auto;
+  }
+
 

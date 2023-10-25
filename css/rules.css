@@ -1,0 +1,21 @@
+/* Background color of the rules site */
+.rulesBody {
+    background-color: rgb(22, 25, 35);;
+}
+
+.rulesTitle {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    font-family: coolvetica;
+}
+
+.everyHr {
+    top: 20px;
+    border: none;
+    height: 2px;
+    width: 1000px;
+    background-color: rgb(30, 72, 200);
+    margin-bottom: 50px;
+    margin: 30px auto;
+}

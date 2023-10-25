@@ -5,7 +5,7 @@
     font-family: coolvetica;
 }
 
-.index-hr {
+.everyHr {
     top: 20px;
     border: none;
     height: 2px;
@@ -14,14 +14,6 @@
     margin-bottom: 50px;
     margin: 30px auto;
 }
-
-.nav-hr {
-    border: none;
-    height: 2px;
-    width: 1500px;
-    background-color: rgb(30, 72, 200);
-    margin: 10px auto;
-  }
 
  /* News */
 .newsBigtext {
@@ -46,7 +38,7 @@
 
     .newsBox:hover {
         transform: scale(1.05);
-        box-shadow: 15px 15px 15px rgba(255, 255, 255, 0.7);
+        box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.7);
     }
 
 .newsHR {

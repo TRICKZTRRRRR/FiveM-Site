@@ -1,0 +1,121 @@
+/* Background color of the about us site */
+.aboutusBody {
+    background-color: rgb(22, 25, 35);
+    font-family: coolvetica;
+}
+
+.aboutusTitle {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    font-family: coolvetica;
+}
+
+.everyHr {
+    top: 20px;
+    border: none;
+    height: 2px;
+    width: 1000px;
+    background-color: rgb(30, 72, 200);
+    margin-bottom: 50px;
+    margin: 30px auto;
+}
+
+.aboutusBoxs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Left Box */
+
+.aboutusBox1HR {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.aboutusBox1 {
+    flex: 1;
+    height: 210px;
+    width: 310px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.5);
+    text-align: center;
+    border: 2px solid black;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: white;
+}
+
+    .aboutusBox1:hover {
+        transform: scale(1.05);
+        box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.7);
+    }
+
+
+
+.aboutusBox1Bigtext {
+    font-size: 30px;
+    color: black;
+}
+
+
+/* Middle box */
+.aboutusBox2Bigtext {
+    font-size: 30px;
+    color: black;
+}
+
+.aboutusBox2 {
+    flex: 1;
+    height: 210px;
+    width: 310px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.5);
+    text-align: center;
+    border: 2px solid black;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: white; 
+}
+
+    .aboutusBox2:hover {
+        transform: scale(1.05);
+        box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.7);
+    }
+
+.aboutusBox2HR {
+    width: 90%;
+    margin: 30px auto;
+}
+
+/* Open or Closed */
+
+.aboutusBox3 {
+    flex: 1;
+    height: 210px;
+    width: 310px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.5);
+    text-align: center;
+    border: 2px solid black;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: white; 
+}
+
+    .aboutusBox3:hover {
+        transform: scale(1.05);
+        box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.7);
+    }
+
+.aboutusBox3HR {
+    width: 90%;
+    margin: 30px auto;
+}
+
+.aboutusBox3Bigtext {
+    font-size: 30px;
+    color: black;
+}
