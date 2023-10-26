@@ -60,6 +60,32 @@ li {
     display: block;
 }
 
+/* Dropdown css to Admin section */
+.admin-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(22, 25, 35);
+    min-width: 160px;
+    z-index: 1;
+}
+
+    .admin-dropdown-content a {
+        color: rgb(255, 255, 255);
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+        .admin-dropdown-content a:hover {
+            background-color: rgb(65, 105, 225);
+            color: rgb(255, 255, 255);
+        }
+
+.admin-dropdown:hover .admin-dropdown-content {
+    display: block;
+}
+
 /* Logo in navbar */
 .navbar-logo {
     height: 45px;
