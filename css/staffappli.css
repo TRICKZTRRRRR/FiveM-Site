@@ -1,0 +1,88 @@
+/* Background color of the rules site */
+.staffAppliBody {
+    background-color: rgb(22, 25, 35);
+    font-family: coolvetica;
+}
+
+.staffAppliTitle {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    font-family: coolvetica;
+}
+
+.everyHr {
+    top: 20px;
+    border: none;
+    height: 2px;
+    width: 1000px;
+    background-color: rgb(30, 72, 200);
+    margin-bottom: 50px;
+    margin: 30px auto;
+}
+
+.staffHr {
+    top: 20px;
+    border: none;
+    height: 2px;
+    width: 500px;
+    background-color: rgb(30, 72, 200);
+    margin-bottom: 50px;
+    margin: 30px auto;
+}
+
+
+.applicationTitle {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+}
+
+.staffApplication {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: coolvetica;
+    font-size: 20px;
+    margin: 8px;
+}
+
+#firstname, #lastname {
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 8px;
+    font-family: coolvetica;
+}
+
+ /* News */
+ /* .staffApplicationBigtext {
+    font-size: 30px;
+    color: black;
+    font-family: coolvetica;
+}
+
+.staffApplicationBox {
+    flex: 1;
+    height: 230px;
+    width: 1000px;
+    margin: 0px auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.5);
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: coolvetica;
+    font-size: 19px;
+}
+
+    .staffApplicationBox:hover {
+        transform: scale(1.05);
+        box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.7);
+    }
+
+.staffApplicationHR {
+    width: 90%;
+    margin: 30px auto;
+} */
