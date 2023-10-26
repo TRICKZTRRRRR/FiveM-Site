@@ -19,3 +19,74 @@
     margin-bottom: 50px;
     margin: 30px auto;
 }
+
+
+/* Rules Box */
+.rulesBoxs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Generel Rules */
+.generelRulesBigtext {
+    font-size: 30px;
+    color: black;
+}
+
+.generelRulesBox {
+    flex: 1;
+    height: fit-content;
+    width: 800px;
+    margin: 0px auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.5);
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: coolvetica;
+}
+
+    .generelRulesBox:hover {
+        transform: scale(1.05);
+        box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.7);
+    }
+
+.generelRulesHR {
+    width: 90%;
+    margin: 30px auto;
+}
+
+/* Gang Rules */
+.gangRulesBigtext {
+    font-size: 30px;
+    color: black;
+}
+
+.gangRulesBox {
+    flex: 1;
+    height: fit-content;
+    width: 800px;
+    margin: 0px auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.5);
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: coolvetica;
+}
+
+    .gangRulesBox:hover {
+        transform: scale(1.05);
+        box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.7);
+    }
+
+.gangRulesHR {
+    width: 90%;
+    margin: 30px auto;
+}
