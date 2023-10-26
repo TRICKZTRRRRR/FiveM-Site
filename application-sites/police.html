@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<head>
+    <!-- Scripts & Meta -->
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="/css/staffappli.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/noscrollbar.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/font.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
+
+    <title>NorthState Roleplay</title>
+</head>
+
+<body class="staffAppliBody"> 
+    <!-- Navbar -->
+    <div class="navbar">
+        <ul>
+            <li><img src="/images/logo.png" alt="ServerLogo" class="navbar-logo"></li>
+            <li><a class="active" href="/index.html">Forside</a></li>
+            <li><a href="/public-sites/rules.html">Regler</a></li>
+            <li><a href="/public-sites/aboutus.html">Om Os</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Ansøgninger</a>
+                <div class="dropdown-content">
+                    <a href="#/application-sites/staff.html">Staff</a>
+                    <a href="/application-sites/police.html">Politi</a>
+                    <a href="/application-sites/lawyer.html">Advokat</a>
+                    <a href="/application-sites/ems.html">EMS</a>
+                    <a href="/application-sites/judge.html">Dommer</a>
+                    <a href="/application-sites/company.html">Firma</a>
+                    <a href="/application-sites/cardealer.html">Bilforhandler</a>
+                    <a href="/application-sites/content-creator.html">Content Creator</a>
+                </div>
+            </li>
+            <li><a href="https://discord.gg/s5Pkd6zYpx">Join Discord</a></li>
+            <li style="float: right"><a href="/admin-site/adminlogin.html">Admin</a></li>
+        </ul>
+    </div>
+    <hr class="nav-hr">
+
+    <!-- Main Site -->
+    <div class="staffAppli">
+        <h1 class="staffAppliTitle">NorthState Roleplay</h1>
+        <hr class="everyHr">
+        <h1 class="applicationTitle">Politi Ansøgning</h1>
+        <hr class="staffHr">
+        <form class="staffApplication" id="policeApplicationID">
+            <label for="firstname">Fornavn</label><br>
+            <input type="text" id="firstname" placeholder="Fx: Torben"><br>
+
+            <label for="lastname">Alder (15+)</label><br>
+            <input type="text" id="age" placeholder="Fx: 16"><br>
+
+            <label for="whyStaff">Hvorfor vil du gerne være en del af Staff Teamet?</label><br>
+            <input type="text" id="whyPolice" placeholder="Fx: Jeg kan godt lide at hjælpe folk"><br>
+
+            <label for="staffServers">Har du været Staff på andre servere før? (Nævn gerne servere)</label><br>
+            <input type="text" id="policeServers" placeholder="Fx. NorthState Roleplay"><br>
+
+            <div id="errorMessage" style="color: red;"></div>
+            <div id="successMessage" style="color: green;"></div>
+
+            <button type="submit">Send til Discord</button>
+        </form>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <!-- Footer -->
+    <div class="footer">
+        <hr class="hrFooter" />
+        <p>&copy; 2023 NorthState Roleplay. Alle rettigheder forbeholdes.</p>
+    </div>
+
+    <script src="/js/staffApplication-to-discord.js"></script>
+</body>

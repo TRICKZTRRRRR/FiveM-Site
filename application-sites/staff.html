@@ -50,11 +50,50 @@
         <hr class="everyHr">
         <h1 class="applicationTitle">Staff Ansøgning</h1>
         <hr class="staffHr">
-        <form class="staffApplication">
+        <form class="staffApplication" id="staffApplicationID">
             <label for="firstname">Fornavn</label><br>
-            <input type="text" id="firstname" name="firstname" placeholder="Fx: Torben"><br>
-            <label for="lastname">Efternavn</label><br>
-            <input type="text" id="lastname" name="lastname" placeholder="Fx: Hansen"><br>
+            <input type="text" id="firstname" placeholder="Fx: Torben"><br>
+
+            <label for="lastname">Alder (15+)</label><br>
+            <input type="text" id="age" placeholder="Fx: 16"><br>
+
+            <label for="whyStaff">Hvorfor vil du gerne være en del af Staff Teamet?</label><br>
+            <input type="text" id="whyStaff" placeholder="Fx: Jeg kan godt lide at hjælpe folk"><br>
+
+            <label for="staffServers">Har du været Staff på andre servere før? (Nævn gerne servere)</label><br>
+            <input type="text" id="staffServers" placeholder="Fx: NorthState Roleplay"><br>
+
+            <label for="experiences">Hvad har du af erfaringer?</label><br>
+            <input type="text" id="experiences" placeholder="Fx: Har været Staff i 3 år"><br>
+
+            <label for="onlineWeek">Hvor mange timer om ugen, kan du være online?</label><br>
+            <input type="text" id="onlineWeek" placeholder="Fx: 5 timer"><br>
+
+            <label for="whyYou">Hvorfor skal vi vælge dig?</label><br>
+            <input type="text" id="whyYou" placeholder="Fx: Fordi jeg er en værdifuld Staff, jeg kender til alle regler osv."><br>
+
+            <label for="ourRules">Har du læst vores regelsæt?</label><br>
+            <input type="text" id="ourRules" placeholder="Fx: Ja"><br>
+
+            <label for="ourPunishments">hvad er det længeste tid man kan få ban? (Permanent tæller ikke med)</label><br>
+            <input type="text" id="ourPunishments" placeholder="Fx: 38 timer"><br>
+
+            <label for="whatsRDM">Du ser en der RDM'er, hvad gør du?</label><br>
+            <input type="text" id="whatsRDM" placeholder="Fx: Jeg skaffer bevis, og banner vedkommende"><br>
+
+            <label for="whatsVDM">Du ser en der VDMer, hvad gør du?</label><br>
+            <input type="text" id="whatsVDM" placeholder="Fx: Jeg skaffer bevis, og banner vedkommende"><br>
+
+            <label for="adminAbuser">Du ser en der misbruger sit Staff, hvad gør du?</label><br>
+            <input type="text" id="adminAbuser" placeholder="Fx: Jeg skaffer bevis, og kontakter en højstående Staff"><br>
+
+            <label for="itsAModder">Du ser / hører at en modder, hvad gør du?</label><br>
+            <input type="text" id="itsAModder" placeholder="Fx: Jeg skaffer bevis, og perm banner vedkommende"><br>
+
+            <div id="errorMessage" style="color: red;"></div>
+            <div id="successMessage" style="color: green;"></div>
+
+            <button type="submit">Send til Discord</button>
         </form>
     </div>
 
@@ -67,4 +106,6 @@
         <hr class="hrFooter" />
         <p>&copy; 2023 NorthState Roleplay. Alle rettigheder forbeholdes.</p>
     </div>
+
+    <script src="/js/staffApplication-to-discord.js"></script>
 </body>
