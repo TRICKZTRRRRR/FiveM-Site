@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Tjek om alle inputfelter er udfyldt
         if (firstName && age && whyStaff && staffServers) {
             const payload = {
-                content: `**Navn:** \n${firstName}\n\n**Hvorfor vil du gerne være en del af Staff Teamet?:** \n${whyStaff}\n\n**Alder:** \n${age}\n\n**Har du været Staff på andre servere før? (Nævn gerne servere):** \n${staffServers}\n\n**Hvad har du af erfaringer?:** \n${experiences}\n\n**Hvor mange timer om ugen, kan du være online?:** \n${onlineWeek}\n\n**Hvorfor skal vi vælge dig?:** \n${whyYou}`,
+                content: `# Staff Ansøgning \n**Navn:** \n${firstName}\n\n**Hvorfor vil du gerne være en del af Staff Teamet?:** \n${whyStaff}\n\n**Alder:** \n${age}\n\n**Har du været Staff på andre servere før? (Nævn gerne servere):** \n${staffServers}\n\n**Hvad har du af erfaringer?:** \n${experiences}\n\n**Hvor mange timer om ugen, kan du være online?:** \n${onlineWeek}\n\n**Hvorfor skal vi vælge dig?:** \n${whyYou}`,
             };
 
             fetch(webhookURL, {
@@ -72,7 +72,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // Tjek om alle inputfelter er udfyldt
         if (firstName && age && whyPolice && policeServers) {
             const payload = {
-            content: `**Navn:** \n${firstName}\n\n**Hvorfor vil du gerne være en del af Staff Teamet?:** \n${whyPolice}\n\n**Alder:** \n${age}\n\n**Har du været Staff på andre servere før? (Nævn gerne servere):** \n${policeServers}`,
+            content: `# Politi Ansøgning \n**Navn:** \n${firstName}\n\n**Hvorfor vil du gerne være en del af Staff Teamet?:** \n${whyPolice}\n\n**Alder:** \n${age}\n\n**Har du været Staff på andre servere før? (Nævn gerne servere):** \n${policeServers}`,
             };
 
             fetch(webhookURL, {
